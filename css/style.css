@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@500&display=swap");
+* {
+  font-family: "Bree Serif", serif;
+  font-family: "Noto Sans KR", sans-serif;
+
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 95%;
+}
+
+body {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock_container {
+  display: flex;
+  justify-content: center;
+}
+
+#todo-form {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  text-align: center;
+  padding: 5px;
+  width: 150px;
+}
+
+#quotes {
+  margin-top: 15px;
+  opacity: 70%;
+}
+#weather {
+  margin-top: 20px;
+  opacity: 70%;
+}
+
+li {
+  margin: 15px 0px;
+}
